@@ -8,6 +8,13 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 """
 
 import os
+#import sys
+#path = '/home/lyun/bookmark'
+#if path not in sys.path:
+#    sys.path.append(path)
+
+#from django.contriib.staticfiles.handlers import StaticFilesHandler
+#from django.core.wsgi import get_wsgi_application
 
 from django.core.wsgi import get_wsgi_application
 

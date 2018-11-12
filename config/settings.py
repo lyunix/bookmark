@@ -25,7 +25,7 @@ SECRET_KEY = '7#=()v1@07(6_buqltof%&@jegy4r5nd$=4&8gql%wzqe%ip-u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.pythonanywhere.com']
 
 
 # Application definition
@@ -119,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Django 1.8 LTS
 # Djsong 2.2 LTS
